@@ -1,0 +1,4 @@
+tavy315_sylius_requested_delivery_date:
+    form:
+        requested_delivery_date: "Requested delivery date"
+        requested_delivery_date_note: "Attention, all requested deliveries within the first 7 days will be shipped as soon as possible based on the country of destination. We cannot guarantee arrival on the exact date you requested."

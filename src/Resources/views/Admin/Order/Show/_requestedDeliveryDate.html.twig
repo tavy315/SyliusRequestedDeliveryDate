@@ -1,0 +1,8 @@
+{% if order.requestedDeliveryDate is not null %}
+    <h4 class="ui top attached styled header">
+        {{ 'tavy315_sylius_requested_delivery_date.form.requested_delivery_date'|trans }}
+    </h4>
+    <div class="ui attached segment" id="sylius-order-requested-delivery-notes">
+        {{ order.requestedDeliveryDate|format_date }}
+    </div>
+{% endif %}

@@ -1,0 +1,13 @@
+sylius_ui:
+    events:
+        sylius.admin.order.show.summary:
+            blocks:
+                requestedDeliveryDate:
+                    priority: 8
+                    template: "@Tavy315SyliusRequestedDeliveryDatePlugin/Admin/Order/Show/_requestedDeliveryDate.html.twig"
+
+        sylius.shop.account.order.show.subcontent:
+            blocks:
+                requestedDeliveryDate:
+                    priority: 8
+                    template: "@Tavy315SyliusRequestedDeliveryDatePlugin/Shop/Account/Order/_requestedDeliveryDate.html.twig"
