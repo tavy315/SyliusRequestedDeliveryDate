@@ -22,7 +22,7 @@ final class RequestedDeliveryDate extends AbstractTypeExtension
             ],
             'help' => 'tavy315_sylius_requested_delivery_date.form.requested_delivery_date_note',
             'label' => 'tavy315_sylius_requested_delivery_date.form.requested_delivery_date',
-            'required' => false,
+            'required' => true,
             'widget' => 'single_text',
         ]);
     }
