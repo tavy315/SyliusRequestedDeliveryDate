@@ -8,13 +8,10 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.2",
+        "php": "^7.4",
         "sylius/sylius": "^1.7"
     },
     "require-dev": {
-        "phpstan/phpstan-doctrine": "^0.11",
-        "phpstan/phpstan-shim": "^0.11",
-        "phpstan/phpstan-webmozart-assert": "^0.11",
         "sensiolabs/security-checker": "^5.0",
         "sylius-labs/coding-standard": "^3.1"
     },
